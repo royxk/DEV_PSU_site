@@ -4,11 +4,16 @@
         <meta charset="utf-8">
         <title>Hyeongkwon's website</title>
         <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
+
     </head>
     
     <body>
         <header>
             <nav>
+                <a id="title" href="=#home">Hyeongkwon Kim</a>
                 <ul>
                     <li><a href="#home">home</a></li>
                     <li><a href="#about">about</a></li>
@@ -25,10 +30,10 @@
 
         </header>
 
-        <section id="home" style="height: 100vh;">
+        <section class="home" id="home">
             <div style="display: flex;">
                 <div>
-                    <img src="./img/myself.jpeg" style="height: 150px;">
+                    <img src="./img/myself.jpeg">
                 </div>
                 
                 <div>
@@ -43,60 +48,57 @@
         </section>
 
 
-        <section id="about" style="height: 100vh;">about</section>
-            <div style="display: flex;">
-                <div>
-                    <h1>waefwaefaw</h1>
-                    <p>fewafaewfawfawefawefawefawefawef</p>
-                    <p>awoeifjawoeijawoifjwaoifjwaioefjaowi</p>
-                </div>
+        <section class="about" id="about">about</section>
+            <div>
+                <h1>Hi good morning</h1>
+                <p>fewafaewfawfawefawefawefawefawef</p>
+                <p>awoeifjawoeijawoifjwaoifjwaioefjaowi</p>
+            </div>
                 
-                <div>
-                    <img src="./img/myself.jpeg" style="height: 150px;">
-                    <img src="./img/myself.jpeg" style="height: 150px;">
-
-                </div>
+            <div>
+                <img src="./img/myself.jpeg">
+                <img src="./img/myself.jpeg">
 
             </div>
+
+        </div>
         </section>
 
 
 
-        <section id="activities" style="height: 100vh;">activities</section>
+        <section id="activities">activities</section>
             <h1>activities</h1>
             <div style="display: flex;">
                 <div>
-                    <img src="./img/myself.jpeg" style="height: 150px;">
+                    <img src="./img/myself.jpeg">
                     <h2>cool</h2>
                     <p>fewafaewfawffawfewafaw</p>
                 </div>
                 <div>
-                    <img src="./img/myself.jpeg" style="height: 150px;">
+                    <img src="./img/myself.jpeg">
                     <h2>cool</h2>
                     <p>fewafaewffawefwaef</p>
                 </div>
                 <div>
-                    <img src="./img/myself.jpeg" style="height: 150px;">
+                    <img src="./img/myself.jpeg">
                     <h2>cool</h2>
                     <p>fewafaefawefewaf</p>
                 </div>
             </div>
 
 
-        <section id="contact" style="height: 100vh;">contact</section>
+        <section id="contact">contact</section>
         <h1>contact</h1>
         <div style="display: flex;">
-            <img src="./img/myself.jpeg" style="height: 500px;">
+            <img src="./img/myself.jpeg">
             <form action="mailto:mymail@gmil">
-                <div style="display: flex; flex-direction:column">
-                    <label>Name:</label>
-                    <input type="text" name="Your name" placeholder="Enter your name here">
-                    <label>Email:</label>
-                    <input type="email" name="Your email" placeholder="Enter you email here">
-                    <label>Message:</label>
-                    <textarea name="Your message" cols="50" rows="10" placeholder="Enter your message"></textarea>
-                    <input type="submit">
-                </div>
+                <label>Name:</label>
+                <input type="text" name="Your name" placeholder="Enter your name here">
+                <label>Email:</label>
+                <input type="email" name="Your email" placeholder="Enter you email here">
+                <label>Message:</label>
+                <textarea name="Your message" cols="50" rows="10" placeholder="Enter your message"></textarea>
+                <input type="submit">
             </form>
         </div>
 
